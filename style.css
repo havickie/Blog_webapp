@@ -32,6 +32,28 @@ header {
   width: 100%;
   z-index: 200;
 }
+header.shadow {
+  background-color: white;
+  box-shadow:0 1px 4px hsl(0 4% 14% / 10%) ;
+  transition: 2s;
+}
+
+header.shadow .four {
+color: black;
+}
+
+.four {
+  font-size: 2rem;
+}
+.logo {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-left: 1rem;
+}
+.four {
+  font-size: 3rem;
+  color: white;
+}
 .container {
   max-width: 1068px;
   margin: auto;
@@ -105,14 +127,14 @@ header {
 
 .post-box {
   background: white;
-  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+  box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px,
+    rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
   padding: 15px;
   border-radius: 0.5rem;
   margin-top: 6rem;
-   
 }
 
-.post-img { 
+.post-img {
   width: 100%;
   height: 200px;
   object-fit: cover;
